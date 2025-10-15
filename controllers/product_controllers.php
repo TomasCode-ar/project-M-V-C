@@ -12,7 +12,7 @@ $errorMessage = null;
 try {
 
     $db = new Db();
-    $productRepo = new ProductRepository();
+    $productRepo = new ProductRepository($db);
     $products = $productRepo->findAll();
     $db->close();
 } catch (Exception $e) {
