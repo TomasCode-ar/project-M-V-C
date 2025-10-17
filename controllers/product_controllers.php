@@ -24,5 +24,5 @@ try {
 
 }
 
- $totalProducts=count($products);
- include_once  "views/product_list.php";
+$totalProducts = count($products);
+include_once  "views/product_boot_list.php";

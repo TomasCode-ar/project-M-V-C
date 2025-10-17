@@ -38,7 +38,7 @@ class Db
         return $stmt->fetchAll();
     }
 
-        /**
+    /**
      * Cierra una conexion
      *
      * @return void

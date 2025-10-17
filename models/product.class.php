@@ -8,12 +8,12 @@ class Product
 
     // Constructor
 
-        public function __construct(int $id, string $description, float $price)
-        {
-            $this->id = $id;
-            $this->description = $description;
-            $this->price = $price;
-        }
+    public function __construct(int $id, string $description, float $price)
+    {
+        $this->id = $id;
+        $this->description = $description;
+        $this->price = $price;
+    }
 
     //Getters
 
